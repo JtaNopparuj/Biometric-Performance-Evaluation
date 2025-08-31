@@ -14,7 +14,7 @@ Example usage:
 python plot_genuine_imposter.py -m "C:\Users\Administrator\Documents\test\Matching"
 ```
 
-* Plot Distribution with normalization
+* Plot Distribution without normalization (Probability)
 ```python
 python plot_genuine_imposter.py -m "C:\Users\Administrator\Documents\test\Matching" -norm 0
 ```
