@@ -15,6 +15,6 @@ python plot_genuine_imposter.py -m "C:\Users\Administrator\Documents\test\Matchi
 ```
 
 * Plot Distribution with normalization
-'''python
+```python
 python plot_genuine_imposter.py -m "C:\Users\Administrator\Documents\test\Matching" -norm 0
-'''
+```
