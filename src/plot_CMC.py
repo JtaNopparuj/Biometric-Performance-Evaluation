@@ -15,8 +15,12 @@ def identify(csv_path_list):
         df = pd.read_csv(csv_path)
         probe_name = csv_path.split('\\')[-1].split('.')[0]
 
+        ####################################################################
+
         probe_id = probe_name[:3]
         idx = np.where(df["Gallery"].to_numpy() == probe_id)[0][0]
+
+        ####################################################################
 
         rank = idx + 1 # -> Rank start with 1 but index start with 0
         score = df["Score"].to_numpy()[idx]
